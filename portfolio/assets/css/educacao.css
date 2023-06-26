@@ -1,0 +1,72 @@
+.educacao {
+display: flex;
+padding: 10px;
+flex-direction: column;
+align-items: center;
+gap: 32px;
+align-self: stretch;
+background: var(--background-Sobre-mim);
+width: auto
+}
+
+.educacao__titulo {
+    color: var(--preto-100);
+    font-size: 32px;
+    font-family: Raleway;
+    font-weight: 700;
+    text-align: center;
+}
+
+.educacao__cursos__box {
+    background: var(--branco);
+    display: flex;
+    flex-direction: column;
+    width: 90%px;
+    height: auto;
+    padding: 16px;
+    justify-content:space-evenly;
+    text-align:start;
+    gap: 10px;
+}
+
+.educacao__cursos__item__img {
+    background-image: url(../../assets/img/logo_alura.png);
+    background-position: center;
+    background-size:contain;
+    background-repeat: no-repeat;
+    height: 300px;
+    margin: 0 auto;
+    width: 300px;
+    
+}
+
+.educacao__cursos__item__titulo {
+    color: var(--preto-100);
+    font-size: 22px;
+    font-family: Raleway;
+    font-weight: 400;
+    gap: 8px;
+
+}
+
+.educacao__cursos__item__subtitulo {
+    color: var(--preto-100);
+    font-size: 15px;
+    font-family: Raleway;
+    font-weight: 400;
+    gap: 8px;
+}
+
+/*Mobile*/
+@media (max-width: 425px) {
+    .educacao__cursos__box {
+        width: 90%;
+    }
+    .educacao__cursos__item__img {
+        width: 80%;
+    }
+    .educacao__titulo {
+       font-size: 25px;
+    }
+
+}

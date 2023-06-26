@@ -1,0 +1,69 @@
+--- CABEÇALHO ---
+
+Texto alternativo da logo: logo valmir jacinto
+
+Sobre mim
+Skill
+Hobbies
+Formação
+Projetos
+val.jc@yahoo.com
+
+--- APRESENTAÇÃO ---
+
+h1> Olá, meu nome é Valmir Jacinto e desenvolvo páginas web 
+p>  Me formei em Fioterapia em 2000 porém dediquei 20 anos da minha carreira a área comercial.
+Atualmente estou participando do Projeto Oracle ONE na Alura. 
+
+Links redes sociais: Github   Linkedin    Instagram     Currículo
+
+--- Sobre mim ---
+
+Sobre mim
+
+P> Mais de vinte anos de experiência em diversas áreas do Mercado. 
+Pró ativo, com foco em resultados e visão estratégica. 
+Boa comunicação oral e escrita. Facilidade de relacionamento e trabalho em equipe.
+
+
+
+
+
+--- SKILLS ---
+ 
+HTML5    JAVASCRIPS     REACT     ARQUITETURA CSS
+
+
+--- HOBBIES ---
+ 
+ESCALADAS    TRILHAS A PÉ    TRILHAS DE MOTO     OUVIR MUSICA     FOTOGRAFIA
+
+
+--- FORMAÇÃO ACADÊMICA EM TI---
+ 
+            ALURA
+
+
+H2> FRONT-END
+
+
+--- EXPERIÊNCIA PROFICIONAL ---
+
+- Challenge decodificador de Texto
+
+- Jogo do sapo
+
+- alguma pagina
+
+--- CONTATO ---
+
+h2: Contato
+
+p: Quer entrar em contato, comigo?
+P: Preencha o formulário, baixo e entrarei em contato, o maias breve, possível.
+
+
+--- RODAPE ---
+
+P: Desenvolvido por Valmr Jacinto - 2023 - 
+val.jc@yahoo.com.br

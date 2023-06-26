@@ -1,0 +1,36 @@
+.footer {
+    background: var(--branco);
+    display: flex;
+    padding-top: 32px;
+    padding-bottom: 32px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+   
+}
+
+.footer__rodape {
+    color: var(--preto-100);
+    text-align: center;
+    font-size: 16px;
+    font-family: Raleway;
+    font-weight: 500;  
+    width: 90vw;
+    
+      
+}
+
+/*Mobile*/
+@media (max-width: 425px) {
+    .footer {
+        width: 98vw;
+    }
+}
+
+
+/*Mobile*/
+@media (max-width: 320px) {
+    .footer__rodape {
+    font-size: 15px;
+    }
+}

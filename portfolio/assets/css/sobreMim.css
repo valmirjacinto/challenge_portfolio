@@ -1,0 +1,22 @@
+.sobreMim {
+    background: var(--background-Sobre-mim);
+    height: auto;
+   
+}
+
+.sobreMim__titulo {
+    font-size: 2rem;
+    font-weight: 700;
+    padding: 3rem 0rem 2rem 0rem;
+    margin: 2rem;
+}
+.sobreMim__descricao {
+    margin:  1rem 2rem;
+}
+
+.sobreMim__assinatura {
+    font-family: cursive;
+    margin: 2rem;
+    margin-bottom: 2rem;
+    padding: 1rem 0 1rem;
+}

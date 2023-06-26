@@ -1,0 +1,10 @@
+.pessoal {
+    align-items: center;
+    background: var(--cor-de-fundo);
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+    margin-top: 1rem;
+    margin-bottom: 3rem;
+}
+    

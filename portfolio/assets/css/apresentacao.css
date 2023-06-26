@@ -1,0 +1,116 @@
+.apresentacao {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 1rem;
+    margin-top: 2rem;   
+}
+
+.apresentacao__texto {
+    flex-direction: column;
+}
+
+.apresentacao__titulo{
+    font-size: 52px;
+    font-weight: 700;
+    margin-bottom: 2rem;
+}
+.apresentacao__socias {
+    display: flex;
+}
+.apresentacao__link {
+    font-size: 1rem;
+    display: inline-block;
+    margin-right: 1.7rem;
+    margin-bottom: 1.25rem;
+    margin-top: 2rem;
+}
+
+.apresentacao__foto {
+    background-image: url(../img/img_perfil1.jpg);
+    background-position: center;
+    background-size: cover;
+    border-radius: 100%;
+    height: 300px;
+    width: 368px;
+}
+
+/*Tablet*/
+@media screen and (max-width: 768px) {
+    .apresentacao {
+        display: flex;
+        align-items: center;
+        gap: 32px;
+        align-self: stretch;
+    }
+    
+    .apresentacao__titulo{
+        display: flex;
+        flex-direction: column;
+        align-self: stretch;
+        color: var(--preto-100, #464646);
+        font-size: 22px;
+        font-family: Raleway;
+        font-weight: 700;
+    }
+
+    .apresentacao__foto {
+        background-image: url(../img/img_perfil1.jpg);
+        background-position: center;
+        background-size: cover;
+        border-radius: 100%;
+        height: 150px;
+        width: 150px;
+    }
+}
+
+/*Mobile*/
+@media (max-width: 425px) {
+    .cabecalho__apresentacao {
+        width: 100vw;
+    }
+
+    .apresentacao {
+        display: flex;
+        flex-direction: column;
+        align-items:start;
+        gap: 32px;
+        align-self: stretch;
+        width: 90vw;
+        
+    }
+
+    .apresentacao__texto{
+        order: 3;
+    }
+
+    .apresentacao__foto {
+        order: 1;
+        
+    }
+    .apresentacao__foto {
+        background-image: url(../img/img_perfil1.jpg);
+        background-position: center;
+        background-size: cover;
+        border-radius: 98%;
+        height: 150px;
+        width: 150px;   
+    }
+}
+
+/*Mobile*/
+@media (max-width: 320px) {
+    .apresentacao__titulo{
+        font-size: 18px;
+    }
+    .apresentacao__texto {
+        width: 95vw;
+    }
+    .apresentacao__socias {
+        width: 95vw;
+    }
+    .apresentacao__link {
+        font-size: 15px;
+        padding: 5px;
+        margin-right: 5px;
+    }
+}

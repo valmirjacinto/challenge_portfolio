@@ -1,0 +1,133 @@
+.experiencias {
+    display: flex;
+    width: 100vw;
+    flex-direction: column;
+    align-items: center;
+    gap: 32px;
+}
+
+.experiencia__titulo {
+    color: var(--preto-100);
+    text-align: center;
+    font-size: 32px;
+    font-family: Raleway;
+    font-weight: 700;
+    margin-top: 2rem;
+}
+
+.experiencia__caixa {
+    display: flex;
+    justify-content: left;
+    max-height: 406px;
+    align-items: center;
+    gap: 16px;
+    margin-left: 2rem;
+    margin-bottom: 2rem;
+    padding: 32px;
+
+}
+
+.experiencia__img {
+   height: 406px;
+}
+
+.experiencia__info {
+    display: flex;
+    flex-direction: column;
+    align-items:flex-start;
+    align-self: stretch;
+    justify-content: center;
+}
+
+.experiencia__info--titulo {
+    color: var(--preto-100);
+    font-size: 22px;
+    font-family: var(--raleway);
+    font-weight: 700;
+}
+
+.experiencia__info--texto {
+    color: var(--preto-100);
+    padding-top: 0.5rem;
+    font-size: 16px;
+    font-family: Raleway;
+    font-weight: 500;
+}
+
+.experiencia__info--botao {
+    display: flex;
+    width: 250px;
+    align-items: flex-start;
+    gap: 16px;
+    padding-top: 1.5rem;
+}
+
+.experiencia__botao--repo {
+    align-items: center;
+    border: 1px solid var(--azul-100);
+    color: var(--azul-100);
+    font-family: var(--raleway);
+    font-size: 16px;
+    justify-content: center;
+    padding: 16px;
+}
+
+.experiencia__botao--demo {
+    background: var(--azul-100);
+    align-items: center;
+    color: var(--branco);
+    font-family: var(--raleway);
+    font-size: 16px;
+    justify-content: center;
+    padding: 16px;
+}
+
+/*Tablet*/
+@media screen and (max-width: 768px) {
+    .experiencia__caixa {
+        display: flex;
+        justify-content: left;
+        
+        align-items: center;
+        gap: 10px;
+        margin-left: 10px;
+        margin-bottom: 10px;
+        padding: 10px;
+    
+    }
+
+    .experiencia__img {
+        max-width: 500px;       
+    }
+}
+
+/*Mobile*/
+@media (max-width: 425px) {
+    .experiencia__caixa {
+        flex-direction: column;
+        margin-bottom: 4rem;
+       
+    }
+
+    .experiencia__img {
+        order: 1;
+     }
+    
+     .experiencia__info {
+        order: 2;
+      }
+      .experiencia__img {
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+        max-width: 100%;
+        
+     }
+    
+     .experiencia__info {
+        margin-top: 1rem;
+      
+      }
+      .experiencia__info--botao {
+        
+}
+}
